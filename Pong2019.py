@@ -32,7 +32,7 @@ raquette2 = canevas.create_rectangle(1,1,15,70,fill='red')
 
 # creation de la direction de la raquette 1
 def bas(event):
-    canevas.move(raquette1,0,10)
+    canevas.move(raquette1,0,10
 
 canevas.bind_all('<Down>', bas)
 
