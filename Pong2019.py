@@ -7,7 +7,7 @@ fenetre = Tk()
 canevas = Canvas(fenetre, bg = 'black', height = 500, width = 725)
 label = Label(fenetre, text = 'PONG', fg = 'blue', bg = 'black')
 canevas.create_line(362.5,0,362.5,500, fill = 'white', width = 5)
-Bouton_Quitter=Button(fenetre, text ='Quitter', command = fenetre.destroy)
+Bouton_Quitter=Button(fenetre, text ='Quitter', command = fenetre.destroy
 
 # creation de la balle au centre dans notre fenetre et deplacement
 
