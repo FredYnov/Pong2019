@@ -11,7 +11,7 @@ Bouton_Quitter=Button(fenetre, text ='Quitter', command = fenetre.destroy)
 
 # creation de la balle au centre dans notre fenetre et deplacement
 
-Pos_X = 35
+Pos_X = 352
 Pos_Y = 240
 dx = 0
 dy = 5
@@ -25,7 +25,7 @@ def deplacement():
     canevas.move(ball,dx,dy)
 
 # creation de la premiere raquette du jeu
-raquette1 = canevas.create_rectangle(710,499,724,430,fill='red')
+raquette1 = canevas.create_rectangle(710,499,724,430,fill='red'
 
 # creation de la seconde raquette de jeu
 raquette2 = canevas.create_rectangle(1,1,15,70,fill='red')
