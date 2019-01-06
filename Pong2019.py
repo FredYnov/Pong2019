@@ -25,7 +25,7 @@ def deplacement():
     canevas.move(ball,dx,dy)
 
 # creation de la premiere raquette du jeu
-raquette1 = canevas.create_rectangle(710,499,724,430,fill='red'
+raquette1 = canevas.create_rectangle(710,499,724,430,fill='red')
 
 # creation de la seconde raquette de jeu
 raquette2 = canevas.create_rectangle(1,1,15,70,fill='red')
